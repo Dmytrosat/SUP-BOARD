@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SUP BOARD</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Inter:wght@300;400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="icon" type="image/png" href="images/sup-icon-2.png" />
+</head>
+
+<body>
+    <!--Header-->
+    <header class="header">
+        <div class="container">
+            <div class="themes">
+                <label class="theme">
+                    <input type="radio" name="theme" value="light" checked>
+                    <span>Light</span>
+                </label>
+                <label class="theme">
+                    <input type="radio" name="theme" value="dark">
+                    <span>Dark</span>
+                </label>
+            </div>
+            <div class="header__inner">
+                <div class="header__top">
+                    <img class="header__logo" src="images/header-logo.svg" alt="header-logo">
+                    <a class="logo" target="_blank" href="#">
+                        <svg width="154" height="35" viewBox="0 0 154 35" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.76709 23.1069L24.0054 0.929199V8.37888C24.0054 8.80975 23.8262 9.22293 23.507 9.52755L5.02255 27.1682L0.76709 23.1069ZM7.87719 29.8925L24.0054 14.5003V21.9501C24.0054 22.3808 23.8262 22.794 23.507 23.0986L16.3883 29.8925L17.7892 31.2295L22.0447 35.2908H13.5336L12.1327 33.9538L7.87719 29.8925ZM154.636 23.0702L158.767 25.8717C156.827 28.3164 153.801 29.8889 150.401 29.8889C144.545 29.8889 139.799 25.2254 139.799 19.4726C139.799 13.7199 144.545 9.05641 150.401 9.05641C153.801 9.05641 156.827 10.6288 158.767 13.0736L154.636 15.8751C153.618 14.6602 152.098 13.8865 150.401 13.8865C147.346 13.8865 144.86 16.3924 144.86 19.4726C144.86 22.5528 147.346 25.0588 150.401 25.0588C152.098 25.0588 153.618 24.2851 154.636 23.0702ZM42.6294 17.4935H51.1771L49.5442 22.0767H42.6294V29.8888H37.64V9.05649H54.1829L52.55 13.6396H42.6294V17.4935ZM113.215 9.05649H129.431V13.6396H123.818V29.8888H118.828V13.6396H113.215V9.05649ZM131.586 29.8889H136.692V9.05649H131.586V29.8889ZM101.64 22.0581L104.166 14.5027L106.692 22.0581H101.64ZM100.985 9.05649L93.5635 29.8888H99.0207L100.103 26.6413H108.229L109.311 29.8888H114.769L107.347 9.05649H100.985ZM86.5789 9.05649H91.5683V29.8888H87.8263L79.4065 18.5799V29.8888H74.4171V9.05649H78.1591L86.5789 20.3654V9.05649ZM59.2934 22.0581L61.8194 14.5027L64.3454 22.0581H59.2934ZM58.6387 9.05649L51.2169 29.8888H56.674L57.7567 26.6413H65.8821L66.9648 29.8888H72.4219L65.0002 9.05649H58.6387Z"
+                                fill="#262C27" />
+                        </svg>
+                    </a>
+                    <button class="header__btn">BUY</button>
+                    <div class="header__phone">
+                        <a class="header__phone-number" href="tel:+17777777">tel. +1 777 77 77</a>
+                    </div>
+                    <nav class="menu">
+                        <button class="menu__btn">
+                            <span class="row"></span>
+                        </button>
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link" href="#info">Info</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#buy">Buy</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#techno">Techno</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#gallery">Gallery</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#map">Map</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#slider">Slider</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#booking">Booking</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__content">
+                    <div class="header__content-box">
+                        <h1 class="header__title">RAY AIR POCKET</h1>
+                        <p class="header__text">INFLATABLE SUP BOARD</p>
+                        <p class="header__text">SIZES: 11'6"X31"</p>
+                    </div>
+                    <div class="header__submit">
+                        <a class="header__submit-btn" href="#">Submit</a>
+                        <div class="header__arrow">
+                            <a class="header__arrow-link" href="#">
+                                <img class="header__arrow-img" src="images/arrow.svg" alt="arrow">
+                            </a>
+                        </div>
+                    </div>
+                    <p class="header__decor-text header__decor-text--one">DOM</p>
+                    <p class="header__decor-text header__decor-text--two">FREE</p>
+                    <p class="header__decor-text header__decor-text--three">PACK SMALL FOR BIG ADVENTURES</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Main-->
+    <main class="main">
+        <!--Info-->
+        <section class="info" id="info">
+            <div class="container">
+                <div class="info__inner">
+                    <div class="info__top">
+                        <p class="info__top-text info__top-text--one">
+                            After our well received Fly Air Pocket Edition we’re adding the respective touring iSUP to
+                            our Range – the Ray Air Pocket Edition! The ultra travel-friendly touring iSUP is built in a
+                            tough but light construction that allows it to be packed into a backpack half the size of a
+                            regular iSUP.
+                            <button class="popup-btn info__btn">
+                                <a class="popup-link" href="https://www.youtube.com/watch?v=ES2mShoQ3_Q">
+                                    <svg width="70" height="70" viewBox="0 0 70 70" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M52.6733 34.5L26.1634 49.6554V19.3446L52.6733 34.5Z" fill="white" />
+                                        <circle cx="35" cy="35" r="34" stroke="white" stroke-width="2" />
+                                    </svg>
+                                    <span>Play video</span>
+                                </a>
+                            </button>
+                        </p>
+                        <p class="info__top-text info__top-text--two">
+                            With a thinner deck pad and tough but flexible construction, the Ray Air Pocket Edition can
+                            be rolled and packed into a much narrower bag, making it extremely easy to store and
+                            transport. Based on our highly versatile Ray Air 11’6’’, the efficient shape is packed with
+                            volume - offering safe, stable paddling and superb glide – which makes it the perfect iSUP
+                            for everyone paddling some distance. With its minimal weight and dimensions nothing comes
+                            close the convenient handling of our Pocket Edition iSUPs!
+                        </p>
+                        <img class="info__top-img" src="images/sup.png" alt="">
+                    </div>
+                    <div class="info__specs">
+                        <h3 class="info__specs-title title">
+                            SPECS
+                        </h3>
+                        <ul class="info__specs-list">
+                            <li class="info__specs-item">
+                                <p class="info__specs-caption">
+                                    BOARD
+                                </p>
+                                <p class="info__specs-text">
+                                    RAY AIR POCKET 11'6"X31"
+                                </p>
+                            </li>
+                            <li class="info__specs-item">
+                                <p class="info__specs-caption">
+                                    VOLUME
+                                </p>
+                                <p class="info__specs-text">
+                                    299 L
+                                </p>
+                            </li>
+                            <li class="info__specs-item">
+                                <p class="info__specs-caption">
+                                    WIDTH
+                                </p>
+                                <p class="info__specs-text">
+                                    31" / 78.7 CM
+                                </p>
+                            </li>
+                            <li class="info__specs-item">
+                                <p class="info__specs-caption">
+                                    LENGTH
+                                </p>
+                                <p class="info__specs-text">
+                                    11'6'' / 350.5 CM
+                                </p>
+                            </li>
+                            <li class="info__specs-item">
+                                <p class="info__specs-caption">
+                                    THICKNESS
+                                </p>
+                                <p class="info__specs-text">
+                                    6” / 15 CM
+                                </p>
+                            </li>
+                            <li class="info__specs-item">
+                                <p class="info__specs-caption">
+                                    WEIGHT
+                                </p>
+                                <p class="info__specs-text">
+                                    8.5 KG
+                                </p>
+                            </li>
+                            <li class="info__specs-item">
+                                <p class="info__specs-caption">
+                                    FITTINGS
+                                </p>
+                                <p class="info__specs-text">
+                                    2X FCS FIN SYSTEM / 2 X 4.5" CLICK FIN
+                                </p>
+                            </li>
+                            <li class="info__specs-item">
+                                <p class="info__specs-caption">
+                                    REC. USER WEIGHT
+                                </p>
+                                <p class="info__specs-text">
+                                    UP TO 100 KG
+                                </p>
+                            </li>
+                            <li class="info__specs-item">
+                                <p class="info__specs-caption">
+                                    MASTFOOT INSERT
+                                </p>
+                                <p class="info__specs-text">
+                                    NO
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Buy-->
+        <section class="buy" id="buy">
+            <div class="container">
+                <div class="buy__inner">
+                    <div class="buy__content">
+                        <h3 class="buy__title title">
+                            RAY AIR POCKET
+                        </h3>
+                        <ul class="buy__list">
+                            <li class="buy__item">
+                                <p class="buy__item-title">CLICK FINS</p>
+                                <p class="buy__item-text">Comes with two 4.5’’ Click Fins – no tools required – fit and
+                                    remove in seconds</p>
+                            </li>
+                            <li class="buy__item">
+                                <p class="buy__item-title">REDUCED DECK PAD</p>
+                                <p class="buy__item-text">Reduced area deck pad in standing area to aid packing</p>
+                            </li>
+                            <li class="buy__item">
+                                <p class="buy__item-title">BACKPACK</p>
+                                <p class="buy__item-text">Compact Pocket backpack with easy entry zipper for board,
+                                    paddle, pump and accessories (fits paddle and also regular pump)</p>
+                            </li>
+                            <li class="buy__item">
+                                <p class="buy__item-title">TOURING SHAPE</p>
+                                <p class="buy__item-text">Tried and tested shape based on our popular Ray Air 11’6’’</p>
+                            </li>
+                            <li class="buy__item">
+                                <p class="buy__item-title">EXTREMELY PORTABLE</p>
+                                <p class="buy__item-text">Extremely portable, the ultimate travel companion</p>
+                            </li>
+                        </ul>
+                        <div class="buy__price">
+                            590 €
+                        </div>
+                        <button class="buy__btn">BUY</button>
+                    </div>
+                    <img class="buy__img" src="images/sup-full.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!--Technology-->
+        <section class="technology" id="techno">
+            <!--Technology-top-->
+            <div class="technology__top">
+                <div class="container">
+                    <div class="technology__top-inner">
+                        <button class="popup-btn technology__btn">
+                            <a class="popup-link" href="https://www.youtube.com/watch?v=o6DBprIyhTI">
+                                <svg width="70" height="70" viewBox="0 0 70 70" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M52.6733 34.5L26.1634 49.6554V19.3446L52.6733 34.5Z" fill="white" />
+                                    <circle cx="35" cy="35" r="34" stroke="white" stroke-width="2" />
+                                </svg>
+                                <span>Play video</span>
+                            </a>
+                        </button>
+                        </p>
+                        <div class="technology__top-box">
+                            <h3 class="technology__title title">
+                                MICRO TECHNOLOGY
+                            </h3>
+                            <ol class="technology__list">
+                                <li class="technology__list-item">
+                                    First PVC rail layer
+                                </li>
+                                <li class="technology__list-item">
+                                    Second PVC rail layer
+                                </li>
+                                <li class="technology__list-item">
+                                    Thin diamond grooving split-pad
+                                </li>
+                                <li class="technology__list-item">
+                                    Strong Tarpaulin layer
+                                </li>
+                                <li class="technology__list-item">
+                                    V-Drop Stitch core
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Gallery-->
+            <div class="gallery" id="gallery">
+                <div class="container">
+                    <div class="gallery__inner">
+                        <div class="gallery__box">
+                            <p class="gallery__text">
+                                Our new Micro technology provides a featherweight and quality construction that can be
+                                rolled and packed into a backpack half the width of a standard iSUP package. The reduced
+                                pad and our twin Click Fin system make it possible to have a regular sized iSUP packed
+                                into minimal space.
+                            </p>
+                            <div class="gallery__min">
+                                <img class="gallery__min__img gallery__min__img--1" src="images/gmin-1.jpg" alt="">
+                                <img class="gallery__min__img gallery__min__img--2" src="images/gmin-2.jpg" alt="">
+                                <img class="gallery__min__img" src="images/gmin-3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="gallery-max">
+                            <img class="gallery-max__img" src="images/gmax-1.jpg" alt="">
+                            <img class="gallery-max__img gallery-max__img--2" src="images/gmax-2.jpg" alt="">
+                            <img class="gallery-max__img gallery-max__img--3" src="images/gmax-3.jpg" alt="">
+                            <img class="gallery-max__img gallery-max__img--4" src="images/gmax-4.jpg" alt="">
+                            <img class="gallery-max__img gallery-max__img--5" src="images/gmax-5.jpg" alt="">
+                            <p class="gallery-max__text">ENJOY <br>
+                                YOUR LIFE</p>
+                            <img class="gallery-max__img gallery-max__img--6" src="images/gmax-6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Map-->
+        <section class="map" id="map">
+            <div class="container">
+                <h2 class="map__title title">World map</h2>
+                <iframe class="map__iframe"
+                    src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d12281939.097152174!2d-80.48719524633165!3d22.5573360333309!3m2!1i1024!2i768!4f13.1!5e1!3m2!1suk!2sua!4v1659617664203!5m2!1suk!2sua"
+                    width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+        <!--Gallery Sup-->
+        <section class="gallery__sup" id="slider">
+            <div class="container">
+                <div class="gallery__top">
+                    <h2 class="gallery__title title">Foto Gallery</h2>
+                    <a class="gallery__link" href="#">Go to section</a>
+                </div>
+                <div class="gallery__slider">
+                    <div class="gallery__item">
+                        <div class="gallery__item-inner">
+                            <a class="gallery__item-link" href="images/gallery-1.jpg"><img class="gallery__item-img"
+                                    src="images/gallery-1.jpg" alt="">
+                            </a>
+                            <a class="gallery__item-link" href="images/gallery-2.jpg"><img class="gallery__item-img"
+                                    src="images/gallery-2.jpg" alt="">
+                            </a>
+                            <a class="gallery__item-link" href="images/gallery-3.jpg"><img class="gallery__item-img"
+                                    src="images/gallery-3.jpg" alt="">
+                            </a>
+                            <a class="gallery__item-link" href="images/gallery-4.jpg"><img class="gallery__item-img"
+                                    src="images/gallery-4.jpg" alt="">
+                            </a>
+                            <a class="gallery__item-link" href="images/gallery-5.jpg"><img class="gallery__item-img"
+                                    src="images/gallery-5.jpg" alt="">
+                            </a>
+                            <a class="gallery__item-link" href="images/gallery-6.jpg"><img class="gallery__item-img"
+                                    src="images/gallery-6.jpg" alt="">
+                            </a>
+                            <a class="gallery__item-link" href="images/gallery-7.jpg"><img class="gallery__item-img"
+                                    src="images/gallery-7.jpg" alt="">
+                            </a>
+                            <a class="gallery__item-link" href="images/gallery-8.jpg"><img class="gallery__item-img"
+                                    src="images/gallery-8.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery__item">
+                        <div class="gallery__item-inner">
+                            <a class="gallery__item-link" href="images/gallery-1.jpg"><img class="gallery__item-img"
+                                    src="images/gallery-1.jpg" alt="">
+                            </a>
+                            <a class="gallery__item-link" href="images/gallery-2.jpg"><img class="gallery__item-img"
+                                    src="images/gallery-2.jpg" alt="">
+                            </a>
+                            <a class="gallery__item-link" href="images/gallery-3.jpg"><img class="gallery__item-img"
+                                    src="images/gallery-3.jpg" alt="">
+                            </a>
+                            <a class="gallery__item-link" href="images/gallery-4.jpg"><img class="gallery__item-img"
+                                    src="images/gallery-4.jpg" alt="">
+                            </a>
+                            <a class="gallery__item-link" href="images/gallery-5.jpg"><img class="gallery__item-img"
+                                    src="images/gallery-5.jpg" alt="">
+                            </a>
+                            <a class="gallery__item-link" href="images/gallery-6.jpg"><img class="gallery__item-img"
+                                    src="images/gallery-6.jpg" alt="">
+                            </a>
+                            <a class="gallery__item-link" href="images/gallery-7.jpg"><img class="gallery__item-img"
+                                    src="images/gallery-7.jpg" alt="">
+                            </a>
+                            <a class="gallery__item-link" href="images/gallery-8.jpg"><img class="gallery__item-img"
+                                    src="images/gallery-8.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Booking-->
+        <section class="booking" id="booking">
+            <div class="container">
+                <h2 class="booking__title title">Booking</h2>
+                <form class="booking__form" action="#" method="POST" name="contact" data-netlify="true"
+                    id="booking__form">
+                    <input class="booking__input" type="text" placeholder="Name">
+                    <input class="booking__input" type="text" placeholder="Phone">
+                    <input class="booking__input" type="text" placeholder="E-mail">
+                    <textarea class="booking__area" placeholder="Comments"></textarea>
+                    <button class="booking__btn" type="submit">Submit request</button>
+                    <label class="booking__label">
+                        <input class="booking__checkbox" type="checkbox">
+                        <span class="booking__checkbox-style"></span>
+                        Consent to the processing of personal data
+                    </label>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <!--Footer-top-->
+                <div class="footer__top">
+                    <form action="" class="footer__form">
+                        <h3 class="footer__title title">
+                            CONTACT US
+                        </h3>
+                        <input class="footer__form-input" type="text" placeholder="NAME">
+                        <input class="footer__form-input" type="text" placeholder="E-MAIL">
+                        <button class="footer__form-btn" type="submit">SEND</button>
+                    </form>
+                    <a href="#" class="footer__logo">
+                        <svg width="371" height="81" viewBox="0 0 371 81" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0 52.9245L54.5131 0V17.7778C54.5131 18.806 54.0925 19.792 53.3437 20.5189L9.98256 62.6163L0 52.9245ZM16.679 69.1175L54.5131 32.3858V50.1638C54.5131 51.1918 54.0925 52.1778 53.3437 52.9047L36.6446 69.1175L39.9308 72.308L49.9136 82H29.9481L26.6616 78.8093L16.679 69.1175ZM360.948 52.8369L370.64 59.5223C366.089 65.3563 358.99 69.1089 351.015 69.1089C337.279 69.1089 326.143 57.9799 326.143 44.2516C326.143 30.5234 337.279 19.3946 351.015 19.3946C358.99 19.3946 366.089 23.147 370.64 28.9812L360.948 35.6665C358.562 32.7673 354.995 30.9211 351.015 30.9211C343.847 30.9211 338.016 36.9011 338.016 44.2516C338.016 51.6022 343.847 57.5824 351.015 57.5824C354.995 57.5824 358.562 55.7362 360.948 52.8369ZM98.2016 39.5287H118.253L114.422 50.466H98.2016V69.1087H86.4974V19.3948H125.304L121.474 30.3319H98.2016V39.5287ZM263.783 19.3948H301.822V30.3319H288.655V69.1087H276.95V30.3319H263.783V19.3948ZM306.878 69.1089H318.857V19.3948H306.878V69.1089ZM236.63 50.4217L242.556 32.3915L248.481 50.4217H236.63ZM235.094 19.3948L217.684 69.1087H230.486L233.026 61.3589H252.086L254.626 69.1087H267.427L250.017 19.3948H235.094ZM201.299 19.3948H213.004V69.1087H204.225L184.474 42.1212V69.1087H172.77V19.3948H181.548L201.299 46.3823V19.3948ZM137.292 50.4217L143.218 32.3915L149.144 50.4217H137.292ZM135.757 19.3948L118.346 69.1087H131.148L133.688 61.3589H152.748L155.288 69.1087H168.09L150.679 19.3948H135.757Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                </div>
+                <!--Footer-social-->
+                <p class="footer__social-title">
+                    <a class="footer__social-title" href=""> INSTAGRAM</a>
+                </p>
+                <div class="footer__gallery">
+                    <img class="footer__gallery-item" src="images/inst-1.jpg" alt="">
+                    <img class="footer__gallery-item" src="images/inst-2.jpg" alt="">
+                    <img class="footer__gallery-item" src="images/inst-3.jpg" alt="">
+                    <img class="footer__gallery-item" src="images/inst-4.jpg" alt="">
+                </div>
+                <ul class="footer__menu-list">
+                    <li class="footer__menu-item">
+                        <a class="footer__menu-link" href="#">COPYRIGHT 2022</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a class="footer_menu-link" href="#">ALL RIGHTS RESERVED</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a class="footer_menu-link" href="#"> COOKIE SETTINGS</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a class="footer_menu-link" href="#">PRIVACY STATEMENTS</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a class="footer_menu-link" href="#"> CONTACT</a>
+                    </li>
+                </ul>
+                <!-- Social links -->
+                <div class="social__links">
+                    <a class="social__link" target="_blank" href="#">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_321_7)">
+                                <path
+                                    d="M9.09105 21.7328C9.09105 21.8422 8.96507 21.9297 8.80622 21.9297C8.62547 21.9461 8.49948 21.8586 8.49948 21.7328C8.49948 21.6234 8.62547 21.5359 8.78431 21.5359C8.94864 21.5195 9.09105 21.607 9.09105 21.7328ZM7.38755 21.4867C7.34921 21.5961 7.45876 21.7219 7.62309 21.7547C7.7655 21.8094 7.92983 21.7547 7.96269 21.6453C7.99555 21.5359 7.89148 21.4102 7.72716 21.3609C7.58474 21.3227 7.4259 21.3773 7.38755 21.4867ZM9.8086 21.3938C9.64975 21.432 9.5402 21.5359 9.55664 21.6617C9.57307 21.7711 9.71548 21.8422 9.87981 21.8039C10.0387 21.7656 10.1482 21.6617 10.1318 21.5523C10.1153 21.4484 9.96745 21.3773 9.8086 21.3938ZM13.4128 0.4375C5.81552 0.4375 0.00390625 6.19609 0.00390625 13.7812C0.00390625 19.8461 3.82719 25.0359 9.28824 26.8625C9.98936 26.9883 10.2358 26.5563 10.2358 26.2008C10.2358 25.8617 10.2194 23.9914 10.2194 22.843C10.2194 22.843 6.38517 23.6633 5.57998 21.2133C5.57998 21.2133 4.95555 19.6219 4.05724 19.2117C4.05724 19.2117 2.8029 18.3531 4.14488 18.3695C4.14488 18.3695 5.50878 18.4789 6.25919 19.7805C7.45876 21.8914 9.469 21.2844 10.2523 20.9234C10.3783 20.0484 10.7343 19.4414 11.1287 19.0805C8.06676 18.7414 4.97746 18.2984 4.97746 13.0375C4.97746 11.5336 5.39375 10.7789 6.27015 9.81641C6.12773 9.46094 5.66215 7.99531 6.41256 6.10312C7.55736 5.74766 10.192 7.57969 10.192 7.57969C11.2875 7.27344 12.4652 7.11484 13.6319 7.11484C14.7986 7.11484 15.9762 7.27344 17.0717 7.57969C17.0717 7.57969 19.7064 5.74219 20.8512 6.10312C21.6016 8.00078 21.136 9.46094 20.9936 9.81641C21.87 10.7844 22.4068 11.5391 22.4068 13.0375C22.4068 18.3148 19.1806 18.7359 16.1187 19.0805C16.6226 19.5125 17.0498 20.3328 17.0498 21.618C17.0498 23.4609 17.0334 25.7414 17.0334 26.1898C17.0334 26.5453 17.2854 26.9773 17.981 26.8516C23.4585 25.0359 27.1722 19.8461 27.1722 13.7812C27.1722 6.19609 21.0101 0.4375 13.4128 0.4375ZM5.32802 19.2992C5.25681 19.3539 5.27325 19.4797 5.36636 19.5836C5.454 19.6711 5.57998 19.7094 5.65119 19.6383C5.7224 19.5836 5.70597 19.4578 5.61285 19.3539C5.52521 19.2664 5.39923 19.2281 5.32802 19.2992ZM4.73645 18.8562C4.69811 18.9273 4.75288 19.0148 4.86243 19.0695C4.95007 19.1242 5.05962 19.1078 5.09797 19.0312C5.13631 18.9602 5.08153 18.8727 4.97198 18.818C4.86243 18.7852 4.77479 18.8016 4.73645 18.8562ZM6.51116 20.8031C6.42352 20.8742 6.45638 21.0383 6.58236 21.1422C6.70835 21.268 6.86719 21.2844 6.9384 21.1969C7.00961 21.1258 6.97674 20.9617 6.86719 20.8578C6.74669 20.732 6.58236 20.7156 6.51116 20.8031ZM5.88672 19.9992C5.79908 20.0539 5.79908 20.1961 5.88672 20.3219C5.97436 20.4477 6.12226 20.5023 6.19346 20.4477C6.2811 20.3766 6.2811 20.2344 6.19346 20.1086C6.11678 19.9828 5.97436 19.9281 5.88672 19.9992Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_321_7">
+                                    <rect width="27.1683" height="28" fill="white" transform="translate(0.00390625)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <a class="social__link" target="_blank" href="#">
+                        <svg width="28" height="28" viewBox="0 0 25 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_321_9)">
+                                <path
+                                    d="M5.52675 24.5004H0.411456V8.1434H5.52675V24.5004ZM2.96635 5.91215C1.33065 5.91215 0.00390625 4.56684 0.00390625 2.94262C0.00390626 2.16245 0.31602 1.41423 0.871586 0.862563C1.42715 0.310898 2.18066 0.000976562 2.96635 0.000976562C3.75204 0.000976562 4.50555 0.310898 5.06111 0.862563C5.61668 1.41423 5.92879 2.16245 5.92879 2.94262C5.92879 4.56684 4.60151 5.91215 2.96635 5.91215ZM24.6717 24.5004H19.5674V16.5379C19.5674 14.6403 19.5288 12.2067 16.9078 12.2067C14.2483 12.2067 13.8408 14.2684 13.8408 16.4012V24.5004H8.73097V8.1434H13.637V10.3746H13.7086C14.3915 9.08949 16.0597 7.73324 18.5485 7.73324C23.7255 7.73324 24.6772 11.1184 24.6772 15.5153V24.5004H24.6717Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_321_9">
+                                    <rect width="24.6733" height="28" fill="white" transform="translate(0.00390625)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <a class="social__link" target="_blank" href="#">
+                        <svg width="28" height="28" viewBox="0 0 32 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M29.7726 6.43672C29.9747 5.75312 29.7726 5.25 28.8004 5.25H25.5832C24.7639 5.25 24.387 5.68203 24.1849 6.16328C24.1849 6.16328 22.5462 10.1609 20.2303 12.7531C19.482 13.5023 19.1379 13.743 18.7282 13.743C18.5261 13.743 18.2148 13.5023 18.2148 12.8188V6.43672C18.2148 5.61641 17.9854 5.25 17.3081 5.25H12.2501C11.7367 5.25 11.4308 5.63281 11.4308 5.98828C11.4308 6.76484 12.5888 6.94531 12.709 9.13281V13.8797C12.709 14.9188 12.5232 15.1102 12.1136 15.1102C11.0212 15.1102 8.36657 11.0961 6.79348 6.50234C6.47668 5.61094 6.16534 5.25 5.34056 5.25H2.12337C1.20573 5.25 1.02002 5.68203 1.02002 6.16328C1.02002 7.01641 2.11244 11.2547 6.10525 16.8547C8.76531 20.6773 12.5123 22.75 15.9207 22.75C17.969 22.75 18.2202 22.2906 18.2202 21.4977C18.2202 17.8445 18.0345 17.5 19.0614 17.5C19.5366 17.5 20.3559 17.7406 22.2677 19.5836C24.4525 21.7711 24.813 22.75 26.0365 22.75H29.2537C30.1714 22.75 30.6356 22.2906 30.368 21.3828C29.7562 19.4742 25.6214 15.5477 25.4357 15.2852C24.9605 14.6727 25.097 14.3992 25.4357 13.8523C25.4412 13.8469 29.3684 8.3125 29.7726 6.43672V6.43672Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                    <a class="social__link" target="_blank" href="#">
+                        <svg width="28" height="28" viewBox="0 0 18 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15.2393 15.75L16.0155 10.6827H11.1628V7.3943C11.1628 6.00797 11.8407 4.65664 14.014 4.65664H16.2201V0.342344C16.2201 0.342344 14.2182 0 12.3041 0C8.30778 0 5.69562 2.42703 5.69562 6.82063V10.6827H1.25342V15.75H5.69562V28H11.1628V15.75H15.2393Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                    <a class="social__link" target="_blank" href="#">
+                        <svg width="28" height="28" viewBox="0 0 25 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12.2075 7.07137C8.74417 7.07137 5.95061 10.008 5.95061 13.6487C5.95061 17.2894 8.74417 20.226 12.2075 20.226C15.6709 20.226 18.4644 17.2894 18.4644 13.6487C18.4644 10.008 15.6709 7.07137 12.2075 7.07137ZM12.2075 17.9248C9.96941 17.9248 8.13971 16.0071 8.13971 13.6487C8.13971 11.2902 9.96397 9.37257 12.2075 9.37257C14.4511 9.37257 16.2753 11.2902 16.2753 13.6487C16.2753 16.0071 14.4456 17.9248 12.2075 17.9248V17.9248ZM20.1798 6.80233C20.1798 7.65526 19.5263 8.33646 18.7204 8.33646C17.909 8.33646 17.261 7.64953 17.261 6.80233C17.261 5.95512 17.9144 5.26819 18.7204 5.26819C19.5263 5.26819 20.1798 5.95512 20.1798 6.80233ZM24.3238 8.35936C24.2313 6.3043 23.7847 4.48395 22.3526 2.98416C20.9258 1.48437 19.1941 1.01498 17.2392 0.911936C15.2244 0.791724 9.18526 0.791724 7.17041 0.911936C5.22091 1.00925 3.48923 1.47865 2.05705 2.97844C0.624875 4.47823 0.183787 6.29858 0.0857672 8.35363C-0.0285891 10.4717 -0.0285891 16.82 0.0857672 18.938C0.178341 20.9931 0.624875 22.8134 2.05705 24.3132C3.48923 25.813 5.21546 26.2824 7.17041 26.3854C9.18526 26.5056 15.2244 26.5056 17.2392 26.3854C19.1941 26.2881 20.9258 25.8187 22.3526 24.3132C23.7793 22.8134 24.2258 20.9931 24.3238 18.938C24.4382 16.82 24.4382 10.4774 24.3238 8.35936V8.35936ZM21.7209 21.2106C21.2961 22.3326 20.4739 23.197 19.4011 23.6492C17.7946 24.3189 13.9828 24.1644 12.2075 24.1644C10.4323 24.1644 6.61496 24.3132 5.01398 23.6492C3.94665 23.2027 3.12438 22.3383 2.69418 21.2106C2.05705 19.5219 2.20408 15.5148 2.20408 13.6487C2.20408 11.7825 2.0625 7.76975 2.69418 6.08678C3.11893 4.9648 3.94121 4.10042 5.01398 3.64819C6.62041 2.97844 10.4323 3.133 12.2075 3.133C13.9828 3.133 17.8001 2.98416 19.4011 3.64819C20.4684 4.09469 21.2907 4.95907 21.7209 6.08678C22.358 7.77547 22.211 11.7825 22.211 13.6487C22.211 15.5148 22.358 19.5276 21.7209 21.2106Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                    <a class="social__link" target="_blank" href="#">
+                        <svg width="28" height="28" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12.44 2.82C12.44 2.82 12.95 3.32 12.44 2.82C11.7564 2.03962 11.3797 1.03743 11.38 0H8.29V12.4C8.26617 13.071 7.98287 13.7066 7.49977 14.1729C7.01666 14.6393 6.37145 14.8999 5.7 14.9C4.28 14.9 3.1 13.74 3.1 12.3C3.1 10.58 4.76 9.29 6.47 9.82V6.66C3.02 6.2 0 8.88 0 12.3C0 15.63 2.76 18 5.69 18C8.83 18 11.38 15.45 11.38 12.3V6.01C12.633 6.90985 14.1374 7.39265 15.68 7.39V4.3C15.68 4.3 13.8 4.39 12.44 2.82Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                    <a class="social__link" target="_blank" href="#">
+                        <svg width="28" height="28" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.64 6.8C14.49 8.38 13.84 12.22 13.51 13.99C13.37 14.74 13.09 14.99 12.83 15.02C12.25 15.07 11.81 14.64 11.25 14.27C10.37 13.69 9.87 13.33 9.02 12.77C8.03 12.12 8.67 11.76 9.24 11.18C9.39 11.03 11.95 8.7 12 8.49C12.0069 8.45819 12.006 8.42517 11.9973 8.3938C11.9886 8.36244 11.9724 8.33367 11.95 8.31C11.89 8.26 11.81 8.28 11.74 8.29C11.65 8.31 10.25 9.24 7.52 11.08C7.12 11.35 6.76 11.49 6.44 11.48C6.08 11.47 5.4 11.28 4.89 11.11C4.26 10.91 3.77 10.8 3.81 10.45C3.83 10.27 4.08 10.09 4.55 9.9C7.47 8.63 9.41 7.79 10.38 7.39C13.16 6.23 13.73 6.03 14.11 6.03C14.19 6.03 14.38 6.05 14.5 6.15C14.6 6.23 14.63 6.34 14.64 6.42C14.63 6.48 14.65 6.66 14.64 6.8V6.8Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                    <a class="social__link" target="_blank" href="#">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M26.6443 7.27513C22.4558 0.800079 13.9044 -1.12494 7.27265 2.9001C0.815441 6.92513 -1.27879 15.6752 2.90967 22.1502L3.25871 22.6752L1.86256 27.9253L7.09813 26.5253L7.62169 26.8753C9.89043 28.1003 12.3337 28.8003 14.777 28.8003C17.3948 28.8003 20.0125 28.1003 22.2813 26.7003C28.7385 22.5002 30.6582 13.9252 26.6443 7.27513V7.27513ZM22.9794 20.7502C22.2813 21.8002 21.4087 22.5002 20.1871 22.6752C19.489 22.6752 18.6164 23.0252 15.126 21.6252C12.1592 20.2252 9.71592 17.9502 7.97072 15.3252C6.92361 14.1002 6.40005 12.5252 6.22553 10.9502C6.22553 9.55015 6.74909 8.32514 7.62169 7.45013C7.97072 7.10013 8.31976 6.92513 8.6688 6.92513H9.5414C9.89043 6.92513 10.2395 6.92513 10.414 7.62513C10.763 8.50014 11.6356 10.6002 11.6356 10.7752C11.8101 10.9502 11.8101 11.3002 11.6356 11.4752C11.8101 11.8252 11.6356 12.1752 11.4611 12.3502C11.2866 12.5252 11.1121 12.8752 10.9375 13.0502C10.5885 13.2252 10.414 13.5752 10.5885 13.9252C11.2866 14.9752 12.1592 16.0252 13.0318 16.9002C14.0789 17.7752 15.126 18.4752 16.3476 19.0002C16.6967 19.1752 17.0457 19.1752 17.2202 18.8252C17.3948 18.4752 18.2674 17.6002 18.6164 17.2502C18.9654 16.9002 19.1399 16.9002 19.489 17.0752L22.2813 18.4752C22.6303 18.6502 22.9794 18.8252 23.1539 19.0002C23.3284 19.5252 23.3284 20.2252 22.9794 20.7502V20.7502Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                    <a class="social__link" target="_blank" href="#">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15.5556 9.33333H12.4444V12.4444H15.5556V9.33333ZM21.7778 9.33333H18.6667V12.4444H21.7778V9.33333ZM26.4444 19.4444C24.5 19.4444 22.6333 19.1333 20.8911 18.5578C20.6176 18.4707 20.3256 18.4594 20.0462 18.5251C19.7668 18.5909 19.5104 18.7312 19.3044 18.9311L15.8822 22.3533C11.4705 20.109 7.88218 16.5261 5.63111 12.1178L9.05333 8.68C9.48889 8.26 9.61333 7.65333 9.44222 7.10889C8.85212 5.31698 8.55278 3.44213 8.55556 1.55556C8.55556 0.7 7.85556 0 7 0H1.55556C0.7 0 0 0.7 0 1.55556C0 16.1622 11.8378 28 26.4444 28C27.3 28 28 27.3 28 26.4444V21C28 20.1444 27.3 19.4444 26.4444 19.4444ZM24.8889 9.33333V12.4444H28V9.33333H24.8889Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Modals section -->
+    <section class="modal">
+        <div class="modal__bgd" id="modal__email">
+            <div class="modal__container">
+                <button class="modal__close-btn">
+                    <img src="./icons/close-icon.svg" alt="close__icon">
+                </button>
+                <img src="./icons/mail-icon.svg" alt="mail__icon" class="modal__icon">
+                <h4 class="modal__title">We will contact you within
+                    <br>the next hour</h4>
+                <form action="#" class="modal__container-form" id="modal__email-container">
+                    <div class="email__input-container" id="email__input-container">
+                        <label for="user__email" class="user__email-title">Email</label>
+                        <input type="email" name="user__email" id="user__email" class="user__email"
+                            placeholder="Email">
+                        <p class="email__error-text">Check your email</p>
+                    </div>
+                    <button type="submit" class="modal__submit-btn">Send</button>
+                </form>
+            </div>
+        </div>
+        <div class="modal__bgd" id="success__modal">
+            <div class="modal__container modal__container-success">
+                <button class="modal__close-btn">
+                    <img src="./icons/close-icon.svg" alt="close__icon">
+                </button>
+                <img src="./icons/success-icon.svg" alt="success__icon" class="modal__success-icon">
+                <p class="modal__success-message">
+                    All right!
+                    <br>Request sent
+                </p>
+            </div>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
