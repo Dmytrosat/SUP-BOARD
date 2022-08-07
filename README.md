@@ -2,8 +2,15 @@
 # I'm Dmytro Satanovsky, from Ukraine, Lviv.
 # This is my final project for the CS50 course.
   - I created a one-page of site called SUP-BOARD.
-  - This site promotes a healthy lifestyle, including waterboarding on sup boar.
+  - This site promotes a healthy lifestyle, including waterboarding on sup board.
   - I used the following tools to create the site: HTML, CSS, JS.
+  - The layout of the site page is valid.
+  - The layout of the site page is semantic.
+  - Layout of the site page - corresponds to the layout.
+  - To build a grid, flexes or a grid are used.
+  - After zooming out of the browser page, the layout is placed in the center.
+  - After hovering and clicking, there is a smooth change in the appearance of page elements.
+  - PerfectPixel extension is used to check the conformity of the layout to the layout.
 # 📑 Cheat sheets
 Interactive demos with definitions from specs:
 - Flex Cheatsheet
