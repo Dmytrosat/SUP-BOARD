@@ -1,13 +1,13 @@
 # 👋 Hi!
 # I'm Dmytro Satanovsky, from Ukraine, Lviv.
 # This is my final project for the CS50 course.
-  I created a one-page of site called SUP-BOARD.
-  This site promotes a healthy lifestyle, including waterboarding on sup boar.
-  I used the following tools to create the site: HTML, CSS, JS.
+  - I created a one-page of site called SUP-BOARD.
+  - This site promotes a healthy lifestyle, including waterboarding on sup boar.
+  - I used the following tools to create the site: HTML, CSS, JS.
 # 📑 Cheat sheets
 Interactive demos with definitions from specs:
-Flex Cheatsheet
-Grid Cheatsheet
+- Flex Cheatsheet
+- Grid Cheatsheet
 # 📐 Tools for SVG
 URL-encoder for SVG — encodes SVG for using in CSS backgrounds or masks
 SVG Filters — playground for SVG filters
@@ -16,6 +16,6 @@ Relative Clip Path — converts SVG absolute clip-path to relative
 # 🛠 Tools for markup
 HTML Tree — shows document tree for given HTML
 Pixel Glass — tiny JS library for visual checking markup
-🎨 Tools for colors
+# 🎨 Tools for colors
 Handy Colors — CSS named colors with ready palettes
 Tema — palettes generator from CSS/SCSS/Less variables. Convenient for pet projects without fixed desi
