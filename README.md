@@ -13,3 +13,9 @@ URL-encoder for SVG — encodes SVG for using in CSS backgrounds or masks
 SVG Filters — playground for SVG filters
 SVG Gradient Map Filter — generator of colorful filters
 Relative Clip Path — converts SVG absolute clip-path to relative
+# 🛠 Tools for markup
+HTML Tree — shows document tree for given HTML
+Pixel Glass — tiny JS library for visual checking markup
+🎨 Tools for colors
+Handy Colors — CSS named colors with ready palettes
+Tema — palettes generator from CSS/SCSS/Less variables. Convenient for pet projects without fixed desi
